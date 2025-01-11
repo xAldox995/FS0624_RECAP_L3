@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#logo-container {
+    text-align: center;
+}
+
+#logo-container img {
+    width: 18%;
+}
+
+#logo-container div {
+    border-top: solid 1px orange;
+    background-color: #fdfbf1;
+    padding-bottom: 1% ;
+}
+
+#logo-container div h4 {
+    margin-top: 1%;
+    color: cadetblue;
+}
+
+#logo-container div p span {
+    font-weight: bolder;
+}
+
+main {
+    margin:3% 32%;
+}
+
+#hero {
+    text-align: center;
+}
+
+#hero p {
+    margin-bottom: 2%  ;
+    margin-top: 2% ;
+    text-align: start;
+}
+
+#hero img {
+    border-radius: 3%;
+}
+
+#hero h3 {
+    margin-bottom: 2%  ;
+    margin-top: 2%;
+    color: gray;
+}
+
+#hero div {
+    padding-left: 2%;
+    text-align: start;
+    border-left: solid 2px orange;
+}
+
+#hero div h4 {
+    color:#be5d31;
+}
+
+#hero div a {
+    color: cadetblue;
+}
+
