@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -14,7 +14,7 @@
 #logo-container div {
     border-top: solid 1px orange;
     background-color: #fdfbf1;
-    padding-bottom: 1% ;
+    padding-bottom: 1%;
 }
 
 #logo-container div h4 {
@@ -27,7 +27,7 @@
 }
 
 main {
-    margin:3% 32%;
+    margin: 3% 32%;
 }
 
 #hero {
@@ -35,8 +35,8 @@ main {
 }
 
 #hero>p {
-    margin-bottom: 2%  ;
-    margin-top: 2% ;
+    margin-bottom: 2%;
+    margin-top: 2%;
     text-align: start;
 }
 
@@ -45,7 +45,7 @@ main {
 }
 
 #hero h3 {
-    margin-bottom: 2%  ;
+    margin-bottom: 2%;
     margin-top: 2%;
     color: gray;
 }
@@ -57,7 +57,7 @@ main {
 }
 
 #hero div h4 {
-    color:#be5d31;
+    color: #be5d31;
 }
 
 #hero div a {
@@ -65,11 +65,13 @@ main {
     font-weight: bolder;
 }
 
-#ingredients {
+#ingredients,
+#method {
     margin: 8% auto;
 }
 
-#ingredients h2 {
+#ingredients h2,
+#method h2 {
     border-bottom: solid 1px aqua;
     padding-bottom: 2%;
     color: gray;
@@ -80,10 +82,25 @@ main {
     line-height: 4rem
 }
 
-ul li{
-    line-height: 2rem;
+ul li,
+ol li {
     margin-left: 5%;
 }
 
+ul li {
+    line-height: 2rem;
+}
 
 
+ol li span {
+    line-height: 4rem;
+    font-weight: bolder;
+}
+
+#method p {
+    line-height: 4rem;
+}
+
+#method p a {
+    color: cadetblue;
+}
